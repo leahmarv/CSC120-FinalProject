@@ -6,3 +6,5 @@ Note:  It's a good idea to also make this list available inside the game, in res
 # SPOILER ALERT
 
 If your game includes challenges that must be overcome to win, also list them below.
+
+The bear must be scared away by singing if it is a black bear, or by freezing in place if it is a brown bear. The bear can also be distracted with an apple picked from a tree.
