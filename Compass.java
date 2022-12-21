@@ -6,10 +6,14 @@
  */
 
 public class Compass {
-    int direction;
+    String coords;
 
     public Compass() {
-        
+
+    }
+
+    public String getOrientation(){
+        coords = Player.getxCoord().toString() + Player.getyCoord().toString;
     }
 
 }

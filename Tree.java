@@ -10,6 +10,8 @@ public class Tree {
     String species;
     int xcoord;
     int ycoord;
+    boolean hasFruit;
+    // chokecherry tree
 
     public Tree(String species, int x, int y) {
         this.species = species;
