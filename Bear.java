@@ -9,13 +9,13 @@
 
 public class Bear {
 
-    boolean hungry;
+    boolean isHungry;
     String species;
     int xcoord;
     int ycoord;
 
     public Bear(boolean hungry, String species, int x, int y) {
-        this.hungry = hungry;
+        this.isHungry = hungry;
         this.species = species;
         this.xcoord = x;
         this.ycoord = y;
@@ -24,6 +24,14 @@ public class Bear {
     public void moveBear(int x, int y) {
         this.xcoord = x;
         this.ycoord = y;
+    }
+
+    public void calmBear() {
+        isHungry = false;
+    }
+
+    public boolean isHungry() {
+        return isHungry;
     }
 
 }

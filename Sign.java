@@ -17,4 +17,8 @@ public class Sign {
         this.ycoord = y;
     }
 
+    public String readSign() {
+        return message;
+    }
+
 }
